@@ -1,0 +1,102 @@
+/* CSS RESET */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+address {
+    font-style: normal;
+    font-size: 18px;
+    
+}
+
+h4 {
+    color: white;
+    padding: 15px;
+    font-size: 20px
+}
+
+a {
+    color: #3cb4e7;
+    text-decoration: none;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style-position: inside;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color: #20a9e5;
+    text-align: left;
+    
+}
+
+
+/* UTILS */
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+#main-header {
+    height: 100px;
+    line-height: 100px;
+    background-color: #4ea0ff;
+    background-image: url(/img/pattern.png);
+    background-size: 40%;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.article-picture {
+    margin-left: 0;
+}
+
+.text-gray {
+    color: #808080;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.tr-blue {
+    background-color: #b1e5f2;
+}
+
+.related-article-monitor {
+    background-image: url(/img/monitor.jpg);
+    background-size: contain;
+    width: 312px;
+    height: 208px;
+}
+
+.related-article-graph {
+    background-image: url(/img/monitor.jpg);
+    background-size: contain;
+    width: 311px;
+    height: 207px;
+}
+
